@@ -1,11 +1,19 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "palm",
-  "name": "Mint Starter Kit",
+  "theme": "almond",
+  "name": "Geofund Help Documents",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
+  },
+  "fonts": {
+    "family": "Roboto"
+  },
+  "seo": {
+    "metatags": {
+        "canonical": "https://docs.geofund.io"
+    }
   },
   "favicon": "/favicon.svg",
   "navigation": {
