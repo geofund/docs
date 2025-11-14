@@ -15,6 +15,16 @@
         "canonical": "https://docs.geofund.io"
     }
   },
+  "topbarLinks": [
+    {
+      "name": "Login",
+      "url": "https://app.geofund.io"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "https://geofund.io"
+  },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
@@ -22,11 +32,17 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Quickstart",
+            "icon": "rocket",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "quickstart/platform-demo",
+              "quickstart/uploading-purchases",
+              "quickstart/uploading-sales",
+              "quickstart/managing-inventories",
+              "quickstart/generating-certificates",
+              "quickstart/sending-certificates",
+              "quickstart/requesting-corrections",
+              "quickstart/reporting"
             ]
           },
           {
