@@ -46,19 +46,22 @@
             ]
           },
           {
-            "group": "Customization",
+            "group": "Reference",
+            "icon": "book-open",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "reference/geofund-introduction",
+              "reference/overview",
+              "reference/what-is-traceability",
+              "reference/traceability-documentation",
+              "reference/traceability-network",
+              "reference/glossary"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Basics",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "basics/logging-in",
+              "basics/navigation"
             ]
           },
           {
