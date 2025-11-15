@@ -43,11 +43,8 @@
             "group": "Reference",
             "icon": "book-open",
             "pages": [
-              "reference/geofund-introduction",
               "reference/overview",
-              "reference/what-is-traceability",
-              "reference/traceability-documentation",
-              "reference/traceability-network",
+              "reference/concepts",
               "reference/glossary"
             ]
           },
