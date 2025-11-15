@@ -35,8 +35,8 @@
             "group": "Quickstart",
             "icon": "rocket",
             "pages": [
-              "quickstart/platform-demo",
-              "quickstart/reporting"
+              "quickstart/introduction",
+              "quickstart/how-to-get-started"
             ]
           },
           {
