@@ -12,7 +12,7 @@
   },
   "seo": {
     "metatags": {
-        "canonical": "https://docs.geofund.io"
+      "canonical": "https://docs.geofund.io"
     }
   },
   "topbarLinks": [
@@ -36,12 +36,6 @@
             "icon": "rocket",
             "pages": [
               "quickstart/platform-demo",
-              "quickstart/uploading-purchases",
-              "quickstart/uploading-sales",
-              "quickstart/managing-inventories",
-              "quickstart/generating-certificates",
-              "quickstart/sending-certificates",
-              "quickstart/requesting-corrections",
               "quickstart/reporting"
             ]
           },
@@ -129,15 +123,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
