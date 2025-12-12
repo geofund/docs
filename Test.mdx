@@ -1,0 +1,214 @@
+---
+title: 'Managing Purchase Orders in Geofund'
+description: 'Learn how to review, validate, post, and manage purchase orders extracted from SAF-related certificates'
+icon: 'file-invoice'
+---
+
+## Overview
+
+The **Purchases (Purchase Orders)** area displays data that Geofund's AI has extracted from uploaded SAF-related certificates (e.g., PoS and other trade documents). The system automatically runs validations on these purchase order records to highlight missing or inconsistent data so you can correct issues quickly. The goal is to ensure all purchase order certificates are clean, validated, and ready for downstream allocation and reporting.
+
+<Tip>
+Geofund's AI automatically extracts key information from uploaded certificates, populating fields such as supplier, facility, and fuel quantity without manual data entry.
+</Tip>
+
+## Accessing the Purchases Table
+
+<Steps>
+  <Step title="Open Purchases">
+    Open the **Purchases (Purchase Orders)** area from the main navigation.
+  </Step>
+  
+  <Step title="Review the table">
+    Review the purchase order table to confirm that newly uploaded certificates appear as rows with key fields (such as supplier, facility, and fuel quantity) already populated by AI extraction.
+  </Step>
+  
+  <Step title="Verify data mapping">
+    Check that each row corresponds to a single uploaded certificate and that core information is visible without opening the record.
+  </Step>
+</Steps>
+
+## Reviewing System Validation Warnings
+
+Geofund automatically validates purchase order data and highlights potential issues with orange warning indicators.
+
+<Steps>
+  <Step title="Locate validation warnings">
+    In the **Purchases (Purchase Orders)** table, locate rows with orange warning indicators next to fields such as **Supplier**, **Facility**, or any review status column.
+  </Step>
+  
+  <Step title="Open the record">
+    Click the row or use the **Expand** control to open the record with a side view of key purchase order fields.
+  </Step>
+  
+  <Step title="Review highlighted fields">
+    In the expanded view, review all fields that are highlighted with warnings. Common issues include:
+    
+    - Missing **mass** or **volume** preventing total quantity calculation
+    - Feedstock classification inconsistencies (for example, a UCO feedstock not aligned with the correct scheme)
+    - Country or location names that do not match expected formats (e.g., localized spellings)
+  </Step>
+  
+  <Step title="Correct the issues">
+    Update the highlighted fields directly in the form to correct any issues, such as:
+    
+    - Entering the missing mass or volume
+    - Adjusting feedstock details (for example, confirming that the feedstock is **UCO - Used Cooking Oil**)
+    - Correcting country or facility spellings
+  </Step>
+  
+  <Step title="Save your changes">
+    Click **Save** to apply your changes and close the form.
+  </Step>
+  
+  <Step title="Verify resolution">
+    Confirm that:
+    
+    - The orange warning flags next to **Supplier**, **Facility**, and the review status are cleared for that row
+    - The fuel quantity is now allocated and a green checkbox appears, indicating that all warnings for that purchase order have been resolved
+  </Step>
+</Steps>
+
+<Info>
+Validation warnings help ensure data quality before purchase orders are posted to recipients or used in allocation workflows.
+</Info>
+
+## Using Expanded View
+
+For detailed certificate review, use the Expanded View to see all fields from the underlying certificate.
+
+<Steps>
+  <Step title="Open Expanded View">
+    From the expanded row or side panel, click **Expanded View** to open the full purchase order record.
+  </Step>
+  
+  <Step title="Review certificate fields">
+    Review all fields from the underlying certificate. Geofund highlights the corresponding certificate field so you can see exactly where the data originates while editing.
+  </Step>
+  
+  <Step title="Address validation warnings">
+    Scroll through the full field set and address each validation warning in sequence, using the guidance text in the warnings to understand what to check or correct.
+  </Step>
+  
+  <Step title="Save and return">
+    When all edits are complete, click **Save** in the Expanded View to return to the main purchase order table.
+  </Step>
+  
+  <Step title="Verify completion">
+    Verify that the record now shows no warnings and is marked as fully reviewed (green checkbox visible in the table).
+  </Step>
+</Steps>
+
+## Posting Purchase Orders
+
+<Warning>
+Only post a purchase order when all required validations and edits are complete. Once posted, you are no longer able to make any edits to that record in the table.
+</Warning>
+
+<Steps>
+  <Step title="Select purchase orders">
+    In the **Purchases (Purchase Orders)** table, click the row or rows you want to post so they are selected.
+  </Step>
+  
+  <Step title="Access the action bar">
+    Look for the pop-up action bar that appears at the bottom of the screen once one or more rows are selected.
+  </Step>
+  
+  <Step title="Post the orders">
+    In the bottom pop-up, click the **Post** option to post the selected purchase order(s).
+  </Step>
+  
+  <Step title="Confirm success">
+    Confirm that a success message appears indicating that your purchase orders were successfully posted.
+  </Step>
+</Steps>
+
+<Note>
+Posting makes the purchase order available to its recipients, so ensure the data is final before posting.
+</Note>
+
+## Deleting Purchase Orders
+
+<Steps>
+  <Step title="Select the row">
+    In the **Purchases (Purchase Orders)** table, click the row you want to delete so it is selected.
+  </Step>
+  
+  <Step title="Open the menu">
+    For the selected row, open the three-dot (**⋯**) menu associated with that row in the table.
+  </Step>
+  
+  <Step title="Delete the order">
+    In the menu, click **Delete** to delete the purchase order.
+  </Step>
+  
+  <Step title="Delete multiple (optional)">
+    If you want to delete multiple purchase orders, select multiple rows first, then use the available menu or actions to choose **Delete** for the selected rows.
+  </Step>
+  
+  <Step title="Verify deletion">
+    Confirm that the deleted purchase order(s) no longer appear in the **Purchases (Purchase Orders)** table.
+  </Step>
+</Steps>
+
+## Filtering and Configuring the Table
+
+Customize your view of the Purchases table using filters, search, and display options.
+
+<AccordionGroup>
+  <Accordion title="Date and Search Filters">
+    - Use the **date filter** above or within the table to limit purchase orders to a specific date range
+    - Use the **search** field to find specific records by keyword (for example, supplier name, facility name, or certificate identifier)
+  </Accordion>
+  
+  <Accordion title="Column Filters">
+    - Apply **column filters** to refine results by one or more column values (for example, filter by a specific supplier, facility, or status)
+    - Combine multiple column filters to focus on a narrow set of purchase orders (e.g., a specific supplier and a specific facility)
+  </Accordion>
+  
+  <Accordion title="Column Visibility">
+    - Use the table's **column visibility** controls to select which columns should be visible
+    - Hide any fields that are not needed for your current review
+  </Accordion>
+  
+  <Accordion title="Export and Print">
+    - Click the **Export as CSV** option to download the current view of the purchase order table for offline analysis
+    - Click **Print** to create a printed or PDF copy of the current table view for sharing or recordkeeping
+  </Accordion>
+</AccordionGroup>
+
+## Filtering by Certificate Type
+
+Filter the table to show only specific certificate types, such as PoS (Proof of Sustainability).
+
+<Steps>
+  <Step title="Open certificate type control">
+    In the **Purchases (Purchase Orders)** table, open the control that allows you to select which certificate types are visible.
+  </Step>
+  
+  <Step title="Select certificate types">
+    Choose the certificate type(s) you want to work with-for example, select **PoS** to show only Proof of Sustainability certificates.
+  </Step>
+  
+  <Step title="Verify filtered view">
+    Confirm that the table refreshes to display only purchase orders associated with the selected certificate type(s).
+  </Step>
+  
+  <Step title="Adjust as needed">
+    Adjust the selection as needed when you want to switch to a different certificate type or broaden your view.
+  </Step>
+</Steps>
+
+## Summary
+
+The **Purchases (Purchase Orders)** feature streamlines review of SAF-related certificates by combining AI extraction, automated validations, guided editing, and clear post/delete controls in a single table. Users can quickly resolve data quality issues, finalize and post purchase orders when they are complete, and remove records that should no longer be tracked, ensuring that only clean, validated, and correctly shared purchase order certificates flow into downstream allocation and reporting workflows.
+
+<CardGroup cols={2}>
+  <Card title="Next Steps" icon="arrow-right">
+    Learn about allocation workflows and how posted purchase orders are used in downstream processes.
+  </Card>
+  
+  <Card title="Certificate Types" icon="file-certificate">
+    Explore the different types of SAF-related certificates supported by Geofund.
+  </Card>
+</CardGroup>
